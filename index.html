@@ -164,6 +164,7 @@
             pauseTimer(); // Stop the timer if it's running
             timeLeft = 30; // Reset time to initial value
             updateDisplay(); // Update display immediately
+            startTimer(); // *** NEW: Automatically start the timer after reset ***
         }
 
         // Event listener for the toggle (start/pause) button
